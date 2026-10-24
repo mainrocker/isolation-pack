@@ -51,7 +51,7 @@ hash = "bdc3621e789c41c0776620a0635dfe56c783ac927197e26076b0d0b16b9d3656"
 
 [[files]]
 file = "kubejs/server_scripts/fearless_survey.js"
-hash = "b524c29926c0bc813bd81d272c58e6cf15dcb0f8c22ae0b276cc06b47d34dfb8"
+hash = "df62b01d990316772baf2854fd2660fdac0dfc0527f7dacb5ab51d32fec65bec"
 
 [[files]]
 file = "kubejs/server_scripts/items.js"

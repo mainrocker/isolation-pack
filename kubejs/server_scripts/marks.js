@@ -35,14 +35,15 @@ function allSectors(data) {
   return out
 }
 
-// a map can bring its own table (FEARLESS closes decks); otherwise config.js decides
+// a map can bring its own table (FEARLESS closes decks); otherwise config.js decides. More humans
+// than the table goes up to get its biggest entry, so a deck it never lists (A deck) never opens
 function openSectorsFor(data, humans) {
   const table = data.sectorsByHumans || CFG.sectorsByHumans
   const keys = Object.keys(table).map(k => parseInt(k)).sort((a, b) => a - b)
   for (const k of keys) {
     if (humans <= k) return table[k]
   }
-  return allSectors(data)
+  return keys.length > 0 ? table[keys[keys.length - 1]] : allSectors(data)
 }
 
 function setBulkheads(server, data, openSectors) {

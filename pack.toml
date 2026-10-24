@@ -1,12 +1,12 @@
 name = "Isolation"
 author = "-"
-version = "0.12.12"
+version = "0.12.13"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ab9b4a61ef8a62173ca61cffb6ba0415a00138c18dfd88dc7940630658a2005b"
+hash = "5e58852d125ada2540df5696633cd5edc69d815d011f38677bcde89fc7be8949"
 
 [versions]
 minecraft = "1.21.1"

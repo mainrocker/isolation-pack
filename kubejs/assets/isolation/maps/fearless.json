@@ -13,22 +13,10 @@
    "data": "isolation:textures/map/fearless/c.png"
   },
   {
-   "id": "b_lower",
+   "id": "b",
    "deck": "b_deck",
-   "name": "B Deck, lower",
-   "data": "isolation:textures/map/fearless/b_lower.png"
-  },
-  {
-   "id": "b_upper",
-   "deck": "b_deck",
-   "name": "B Deck, upper",
-   "data": "isolation:textures/map/fearless/b_upper.png"
-  },
-  {
-   "id": "a",
-   "deck": "a_deck",
-   "name": "A Deck",
-   "data": "isolation:textures/map/fearless/a.png"
+   "name": "B Deck",
+   "data": "isolation:textures/map/fearless/b.png"
   }
  ],
  "rooms": [
@@ -40,7 +28,7 @@
   },
   {
    "name": "Exit / Escape Pods",
-   "level": "a",
+   "level": "b",
    "x": -42,
    "z": -36
   },
@@ -63,26 +51,14 @@
    "z": -27
   },
   {
-   "name": "Cellblock",
-   "level": "c",
-   "x": -36,
-   "z": -102
-  },
-  {
    "name": "Upper Observation Platform",
-   "level": "b_lower",
+   "level": "c",
    "x": -36,
    "z": -30
   },
   {
    "name": "Nature Habitat",
-   "level": "b_upper",
-   "x": -33,
-   "z": -74
-  },
-  {
-   "name": "Nature Habitat",
-   "level": "b_upper",
+   "level": "c",
    "x": -33,
    "z": -120
   },
@@ -94,43 +70,31 @@
   },
   {
    "name": "Administrative Office",
-   "level": "a",
+   "level": "c",
    "x": -31,
    "z": -22
   },
   {
-   "name": "Storage Bunker",
-   "level": "c",
-   "x": -26,
-   "z": -32
-  },
-  {
-   "name": "Observation Platform",
-   "level": "c",
-   "x": -25,
-   "z": -17
-  },
-  {
    "name": "Canteen",
-   "level": "b_upper",
+   "level": "c",
    "x": -17,
    "z": -38
   },
   {
    "name": "Delivery Airlock",
-   "level": "a",
+   "level": "c",
    "x": -17,
    "z": -27
   },
   {
    "name": "System Control",
-   "level": "b_lower",
+   "level": "c",
    "x": -15,
    "z": -11
   },
   {
    "name": "Security Electronics",
-   "level": "b_lower",
+   "level": "c",
    "x": -14,
    "z": -25
   },
@@ -148,7 +112,7 @@
   },
   {
    "name": "Security Office",
-   "level": "b_upper",
+   "level": "b",
    "x": -11,
    "z": -55
   },
@@ -166,7 +130,7 @@
   },
   {
    "name": "Transit Station",
-   "level": "a",
+   "level": "b",
    "x": -6,
    "z": -29
   },
@@ -177,12 +141,6 @@
    "z": -1
   },
   {
-   "name": "Canteen",
-   "level": "b_upper",
-   "x": -2,
-   "z": -44
-  },
-  {
    "name": "Lower Baggage Area",
    "level": "c",
    "x": 0,
@@ -190,15 +148,9 @@
   },
   {
    "name": "Small Baggage Area",
-   "level": "b_lower",
+   "level": "c",
    "x": 0,
    "z": -30
-  },
-  {
-   "name": "Nature Habitat",
-   "level": "b_upper",
-   "x": 2,
-   "z": -74
   },
   {
    "name": "Lower Elevator Lobby",
@@ -207,20 +159,14 @@
    "z": -55
   },
   {
-   "name": "Lower Machine Room",
-   "level": "c",
-   "x": 3,
-   "z": -83
-  },
-  {
    "name": "Elevator Lobby",
-   "level": "b_upper",
+   "level": "c",
    "x": 4,
    "z": -57
   },
   {
    "name": "Crew Quarters",
-   "level": "b_upper",
+   "level": "c",
    "x": 8,
    "z": -24
   },
@@ -232,13 +178,13 @@
   },
   {
    "name": "Crew Quaters Administrative",
-   "level": "b_upper",
+   "level": "c",
    "x": 9,
    "z": -44
   },
   {
    "name": "Overseere Office",
-   "level": "b_upper",
+   "level": "c",
    "x": 10,
    "z": -1
   },
@@ -268,21 +214,9 @@
   },
   {
    "name": "Crew Quarters",
-   "level": "b_upper",
-   "x": 23,
-   "z": -39
-  },
-  {
-   "name": "Crew Quarters",
-   "level": "b_upper",
+   "level": "b",
    "x": 23,
    "z": -9
-  },
-  {
-   "name": "Exit / Escape Pods",
-   "level": "c",
-   "x": 30,
-   "z": -127
   },
   {
    "name": "Central Transit Station",
@@ -292,13 +226,13 @@
   },
   {
    "name": "Cargo Control",
-   "level": "b_upper",
+   "level": "c",
    "x": 36,
    "z": -62
   },
   {
    "name": "Upper Airlock Baggage Claim",
-   "level": "b_upper",
+   "level": "c",
    "x": 38,
    "z": -95
   },
@@ -309,14 +243,8 @@
    "z": -53
   },
   {
-   "name": "Exit / Escape Pods",
-   "level": "b_upper",
-   "x": 41,
-   "z": -116
-  },
-  {
    "name": "Airlock",
-   "level": "b_upper",
+   "level": "c",
    "x": 41,
    "z": -82
   },

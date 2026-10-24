@@ -1,0 +1,330 @@
+{
+ "name": "FEARLESS",
+ "x": -64,
+ "z": -144,
+ "width": 160,
+ "height": 208,
+ "yBase": 32,
+ "levels": [
+  {
+   "id": "c",
+   "deck": "c_deck",
+   "name": "C Deck",
+   "data": "isolation:textures/map/fearless/c.png"
+  },
+  {
+   "id": "b_lower",
+   "deck": "b_deck",
+   "name": "B Deck, lower",
+   "data": "isolation:textures/map/fearless/b_lower.png"
+  },
+  {
+   "id": "b_upper",
+   "deck": "b_deck",
+   "name": "B Deck, upper",
+   "data": "isolation:textures/map/fearless/b_upper.png"
+  },
+  {
+   "id": "a",
+   "deck": "a_deck",
+   "name": "A Deck",
+   "data": "isolation:textures/map/fearless/a.png"
+  }
+ ],
+ "rooms": [
+  {
+   "name": "Exit / Escape Pods",
+   "level": "c",
+   "x": -47,
+   "z": -65
+  },
+  {
+   "name": "Exit / Escape Pods",
+   "level": "a",
+   "x": -42,
+   "z": -36
+  },
+  {
+   "name": "Lower Escape Airlock",
+   "level": "c",
+   "x": -41,
+   "z": -66
+  },
+  {
+   "name": "Cellblock",
+   "level": "c",
+   "x": -37,
+   "z": -78
+  },
+  {
+   "name": "Observation Platform",
+   "level": "c",
+   "x": -37,
+   "z": -27
+  },
+  {
+   "name": "Cellblock",
+   "level": "c",
+   "x": -36,
+   "z": -102
+  },
+  {
+   "name": "Upper Observation Platform",
+   "level": "b_lower",
+   "x": -36,
+   "z": -30
+  },
+  {
+   "name": "Nature Habitat",
+   "level": "b_upper",
+   "x": -33,
+   "z": -74
+  },
+  {
+   "name": "Nature Habitat",
+   "level": "b_upper",
+   "x": -33,
+   "z": -120
+  },
+  {
+   "name": "Storage Bunker",
+   "level": "c",
+   "x": -32,
+   "z": -53
+  },
+  {
+   "name": "Administrative Office",
+   "level": "a",
+   "x": -31,
+   "z": -22
+  },
+  {
+   "name": "Storage Bunker",
+   "level": "c",
+   "x": -26,
+   "z": -32
+  },
+  {
+   "name": "Observation Platform",
+   "level": "c",
+   "x": -25,
+   "z": -17
+  },
+  {
+   "name": "Canteen",
+   "level": "b_upper",
+   "x": -17,
+   "z": -38
+  },
+  {
+   "name": "Delivery Airlock",
+   "level": "a",
+   "x": -17,
+   "z": -27
+  },
+  {
+   "name": "System Control",
+   "level": "b_lower",
+   "x": -15,
+   "z": -11
+  },
+  {
+   "name": "Security Electronics",
+   "level": "b_lower",
+   "x": -14,
+   "z": -25
+  },
+  {
+   "name": "Police Station",
+   "level": "c",
+   "x": -11,
+   "z": -109
+  },
+  {
+   "name": "Data Extraction",
+   "level": "c",
+   "x": -11,
+   "z": -12
+  },
+  {
+   "name": "Security Office",
+   "level": "b_upper",
+   "x": -11,
+   "z": -55
+  },
+  {
+   "name": "Station Armory",
+   "level": "c",
+   "x": -10,
+   "z": -48
+  },
+  {
+   "name": "Main Office",
+   "level": "c",
+   "x": -6,
+   "z": -23
+  },
+  {
+   "name": "Transit Station",
+   "level": "a",
+   "x": -6,
+   "z": -29
+  },
+  {
+   "name": "Transit Station",
+   "level": "c",
+   "x": -4,
+   "z": -1
+  },
+  {
+   "name": "Canteen",
+   "level": "b_upper",
+   "x": -2,
+   "z": -44
+  },
+  {
+   "name": "Lower Baggage Area",
+   "level": "c",
+   "x": 0,
+   "z": -13
+  },
+  {
+   "name": "Small Baggage Area",
+   "level": "b_lower",
+   "x": 0,
+   "z": -30
+  },
+  {
+   "name": "Nature Habitat",
+   "level": "b_upper",
+   "x": 2,
+   "z": -74
+  },
+  {
+   "name": "Lower Elevator Lobby",
+   "level": "c",
+   "x": 3,
+   "z": -55
+  },
+  {
+   "name": "Lower Machine Room",
+   "level": "c",
+   "x": 3,
+   "z": -83
+  },
+  {
+   "name": "Elevator Lobby",
+   "level": "b_upper",
+   "x": 4,
+   "z": -57
+  },
+  {
+   "name": "Crew Quarters",
+   "level": "b_upper",
+   "x": 8,
+   "z": -24
+  },
+  {
+   "name": "Lower Airlock Control",
+   "level": "c",
+   "x": 9,
+   "z": -27
+  },
+  {
+   "name": "Crew Quaters Administrative",
+   "level": "b_upper",
+   "x": 9,
+   "z": -44
+  },
+  {
+   "name": "Overseere Office",
+   "level": "b_upper",
+   "x": 10,
+   "z": -1
+  },
+  {
+   "name": "Lower Airlock",
+   "level": "c",
+   "x": 15,
+   "z": -9
+  },
+  {
+   "name": "Lower Cargo Airlock",
+   "level": "c",
+   "x": 20,
+   "z": -123
+  },
+  {
+   "name": "Lower Escape Pods",
+   "level": "c",
+   "x": 20,
+   "z": -113
+  },
+  {
+   "name": "Station Control Room",
+   "level": "c",
+   "x": 20,
+   "z": -33
+  },
+  {
+   "name": "Crew Quarters",
+   "level": "b_upper",
+   "x": 23,
+   "z": -39
+  },
+  {
+   "name": "Crew Quarters",
+   "level": "b_upper",
+   "x": 23,
+   "z": -9
+  },
+  {
+   "name": "Exit / Escape Pods",
+   "level": "c",
+   "x": 30,
+   "z": -127
+  },
+  {
+   "name": "Central Transit Station",
+   "level": "c",
+   "x": 36,
+   "z": -107
+  },
+  {
+   "name": "Cargo Control",
+   "level": "b_upper",
+   "x": 36,
+   "z": -62
+  },
+  {
+   "name": "Upper Airlock Baggage Claim",
+   "level": "b_upper",
+   "x": 38,
+   "z": -95
+  },
+  {
+   "name": "Lab",
+   "level": "c",
+   "x": 41,
+   "z": -53
+  },
+  {
+   "name": "Exit / Escape Pods",
+   "level": "b_upper",
+   "x": 41,
+   "z": -116
+  },
+  {
+   "name": "Airlock",
+   "level": "b_upper",
+   "x": 41,
+   "z": -82
+  },
+  {
+   "name": "Specimen Holding Bay",
+   "level": "c",
+   "x": 42,
+   "z": -33
+  }
+ ]
+}

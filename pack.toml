@@ -1,0 +1,13 @@
+name = "Isolation"
+author = "-"
+version = "0.12.11"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8af4260b9bd34c51ec4ec41d10836d0aff9d57f077d3aef7583cc5ad73311045"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.264"

@@ -1,0 +1,255 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/iris.properties"
+hash = "ef4de5743c574a01e1e5825ae75a692368449daa927d646a40211aef4f765567"
+preserve = true
+
+[[files]]
+file = "kubejs/assets/isolation/maps/fearless.json"
+hash = "f769f06ef597c83720e2b6cb9f001808a7cc5b0d60c8e048aafb558d68d2f762"
+
+[[files]]
+file = "kubejs/assets/isolation/textures/map/fearless/a.png"
+hash = "39cd2d6c734f941e111bf0165451c25d0136f5409ac5b6d9e41a6dddadc6c3db"
+
+[[files]]
+file = "kubejs/assets/isolation/textures/map/fearless/b_lower.png"
+hash = "19cb3d830d218e72a1fec1f3441684c0c2a89be3b22735a205034b4a0ede8d63"
+
+[[files]]
+file = "kubejs/assets/isolation/textures/map/fearless/b_upper.png"
+hash = "1f1006c555e66fcdb75e706cccc15f97b9c72619c6d860a577f592f719c87e92"
+
+[[files]]
+file = "kubejs/assets/isolation/textures/map/fearless/c.png"
+hash = "7f6fd29dc172310fcd4129266cc660b5c97cc67d895caba00d13f98d18fdc1b4"
+
+[[files]]
+file = "kubejs/data/isolation/fearless_mechanisms.json"
+hash = "11f5b642c89080e50fa9e951b7cee8c3893444653f096b5e11ba6e11dc9b4745"
+
+[[files]]
+file = "kubejs/data/isolation/fearless_rooms.json"
+hash = "817891661f9946ecc186d33144a4d2d40057c207467cb49be5a3da2e3c790403"
+
+[[files]]
+file = "kubejs/data/isolation/function/fearless_strip.mcfunction"
+hash = "8551738a78ede9297fe01af8a92ba72a462cf87cd3c575bf6da41ca188fefa84"
+
+[[files]]
+file = "kubejs/server_scripts/config.js"
+hash = "1e53ab992e1453069acc5b488051823b6a5f7e51493cdc5fb2d739d0b95e87f8"
+
+[[files]]
+file = "kubejs/server_scripts/dev.js"
+hash = "ff770f0087ab22e4738db7e113b2f78b6dc3d8e2e49f270dc87f5fa37b14e51f"
+
+[[files]]
+file = "kubejs/server_scripts/fearless.js"
+hash = "bdc3621e789c41c0776620a0635dfe56c783ac927197e26076b0d0b16b9d3656"
+
+[[files]]
+file = "kubejs/server_scripts/fearless_survey.js"
+hash = "b524c29926c0bc813bd81d272c58e6cf15dcb0f8c22ae0b276cc06b47d34dfb8"
+
+[[files]]
+file = "kubejs/server_scripts/items.js"
+hash = "46f1a1cc5f29613a047abd26078c6855c8d3694650e7e72439a41dcfda32ce9e"
+
+[[files]]
+file = "kubejs/server_scripts/joes.js"
+hash = "f0886b7703821a627dc9389715532ee748c8996144813e4fbfce27b2261f6270"
+
+[[files]]
+file = "kubejs/server_scripts/loot.js"
+hash = "57416c6fc26a6f8c09d7e1451556db7c3530e069239665fb8252021f0004c8ea"
+
+[[files]]
+file = "kubejs/server_scripts/maps.js"
+hash = "95177e7e8535c613bb2020cbb8f332bb4fc60f1d9c834ff57eb3457d4e559f54"
+
+[[files]]
+file = "kubejs/server_scripts/marks.js"
+hash = "9d3d2a0a5c8bd489f3beee646fd54253b7e678415719401f3dfe78b4ea412903"
+
+[[files]]
+file = "kubejs/server_scripts/missions.js"
+hash = "72169829f5b419cd003751347059227d2329ca7c71ba047f57218f08d392b848"
+
+[[files]]
+file = "kubejs/server_scripts/noise.js"
+hash = "db8aafcfad0c5f702db5947ad318b6d665468c61e0566914f8910fd087557667"
+
+[[files]]
+file = "kubejs/server_scripts/roles.js"
+hash = "8c2dd4fbe81e6b9b7ec21c830d2258ce81e5114ab96a96155335ae13c7ec49c7"
+
+[[files]]
+file = "kubejs/server_scripts/round.js"
+hash = "8d1adb90add28bd6e8b0d90872e1ad3dbc82260c596b2c8393dd9de6aa9b9d29"
+
+[[files]]
+file = "kubejs/server_scripts/stations.js"
+hash = "6908a4ad64ce436e4caeadf316ff15f73488891992edd54541e28ddba5d34cc7"
+
+[[files]]
+file = "kubejs/server_scripts/util.js"
+hash = "468693463864b5bed524e3207378f29866c81e66e363d1dd6288e1a1a414b212"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "4ac8d2e523e68a601a46f076971fdf005d78a7d55456e595d3de506508b752a1"
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "1801f6f6bf0bd7eaf33544c0ad137f9162aa35239a030efe29a899f5c28bddfa"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
+metafile = true
+
+[[files]]
+file = "mods/cameraoverhaul.pw.toml"
+hash = "51f925e75075df676cc1efff5bb8db9d828842c0f3031310a05dbf368aa67393"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "63d1560de24b53cad7052d19c1a44b4eab64ad9f696d01c9f2a72fccd5540557"
+metafile = true
+
+[[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
+metafile = true
+
+[[files]]
+file = "mods/enhancedvisuals.pw.toml"
+hash = "96990b3474ae0447921939535f3a89f12ed839d3d029ab8e653b0e445374648e"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/first-person-model.pw.toml"
+hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
+metafile = true
+
+[[files]]
+file = "mods/halogen-1.1.1.jar"
+hash = "70a20ebce0efdc14a6308d0d710e7b2ae8611303b76a2f645c46b9970ebd6c9a"
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
+file = "mods/isolation-0.12.4.jar"
+hash = "5a426570c5dee286addeb4c0889a007b04fc901046f0468de0604700850f6b76"
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "d10fbef1555f5277563b9cbf7683811ac0f38c1af41646e6ce5c3aaa2149425d"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+metafile = true
+
+[[files]]
+file = "mods/security-craft.pw.toml"
+hash = "98ac007465eca5728fdcfda196966022ea8ca288e631b631861b5208b9a94562"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "8045c493b0eb0196880817b529417742bb65b250805cc14f7abe5ac5f1e4d4b1"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "848923e74def7cd3996f95ac7f6a9c3fe47c3030f43ae650a74b0a77df96ee49"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
+metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+hash = "269ffb7b6afcdd068491b2c6cf02bfe67e1a8b006e7e2b19561593024f90aef5"
+preserve = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "8ffd81a5e0b4c3bc2daf0d86714ef56df4beb1ed87a5c41c4e9bbb94a7006bc1"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "1d892c58b3e1eede0f0380955b0e53bd6f55d5cbcefa4a6c15eae8d7924c0e26"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "1e4109987a9d4b0bab4302601e08b365b0e3d5b3a39b14b7134f8655c29a6bcc"
+metafile = true
+
+[[files]]
+file = "shaderpacks/rethinking-voxels.pw.toml"
+hash = "0a3f01f56afd065dc65dffb073b4fc5f9ae031aaef08d95d9df92e0093ac8504"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders.pw.toml"
+hash = "3183d3df3c3dd1311e388b247527fcb9bf416ad372d8ec2f9983335afe9c4ad5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "6dad08af50b670e1c317c952104d504f3357eed21009623c4861de8b9ed8b36a"
+metafile = true

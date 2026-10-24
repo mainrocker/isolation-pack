@@ -205,6 +205,11 @@ hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fearless.pw.toml"
+hash = "0bb5df0c3a374bccf1bc2d71c7e9c810ffe389492db4b1fd49a037954b06b667"
+metafile = true
+
+[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
 hash = "269ffb7b6afcdd068491b2c6cf02bfe67e1a8b006e7e2b19561593024f90aef5"
 preserve = true

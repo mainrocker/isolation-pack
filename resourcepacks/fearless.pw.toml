@@ -1,0 +1,8 @@
+name = "FEARLESS map pack"
+filename = "fearless.zip"
+side = "both"
+
+[download]
+url = "https://github.com/mainrocker/isolation-pack/releases/download/map-1/fearless.zip"
+hash-format = "sha256"
+hash = "33f27b25ecb1ef1c3386e833b70589ba2f65127a72d0fa6ef845d2774bc25461"

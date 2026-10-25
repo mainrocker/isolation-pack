@@ -33,6 +33,12 @@
    "z": -65
   },
   {
+   "name": "Exit / Escape Pods",
+   "level": "b_lower",
+   "x": -42,
+   "z": -36
+  },
+  {
    "name": "Lower Escape Airlock",
    "level": "c",
    "x": -41,

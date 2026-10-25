@@ -7,7 +7,7 @@ preserve = true
 
 [[files]]
 file = "kubejs/assets/isolation/maps/fearless.json"
-hash = "2fbc47edd437e4bc36dd4c0e41d420acfd4b7f4346d320e28654e5073ee1ddce"
+hash = "6d4a80fb6ad0a74a1917f70c9adb84700146ee0d4e0b61c250910aa90dd3c8bc"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/b_lower.png"

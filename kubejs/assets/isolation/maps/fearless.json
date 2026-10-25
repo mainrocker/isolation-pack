@@ -13,16 +13,16 @@
    "data": "isolation:textures/map/fearless/c.png"
   },
   {
-   "id": "b",
-   "deck": "b_deck",
-   "name": "B Deck",
-   "data": "isolation:textures/map/fearless/b.png"
-  },
-  {
    "id": "b_lower",
    "deck": "b_deck",
    "name": "B Deck, lower",
    "data": "isolation:textures/map/fearless/b_lower.png"
+  },
+  {
+   "id": "b_upper",
+   "deck": "b_deck",
+   "name": "B Deck, upper",
+   "data": "isolation:textures/map/fearless/b_upper.png"
   }
  ],
  "rooms": [
@@ -34,7 +34,7 @@
   },
   {
    "name": "Exit / Escape Pods",
-   "level": "b",
+   "level": "b_lower",
    "x": -42,
    "z": -36
   },
@@ -118,7 +118,7 @@
   },
   {
    "name": "Security Office",
-   "level": "b",
+   "level": "b_lower",
    "x": -11,
    "z": -55
   },
@@ -220,7 +220,7 @@
   },
   {
    "name": "Crew Quarters",
-   "level": "b",
+   "level": "b_lower",
    "x": 23,
    "z": -9
   },

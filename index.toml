@@ -7,15 +7,15 @@ preserve = true
 
 [[files]]
 file = "kubejs/assets/isolation/maps/fearless.json"
-hash = "9700c7ffc19daf7b920f93dede7f74f6cdb7b0e8480c3e10848ed4fc3121581c"
-
-[[files]]
-file = "kubejs/assets/isolation/textures/map/fearless/b.png"
-hash = "215c3eacaf6dbeec4172025a2d2629744258d4b69340ca430f250fd8ba6eb984"
+hash = "6d4a80fb6ad0a74a1917f70c9adb84700146ee0d4e0b61c250910aa90dd3c8bc"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/b_lower.png"
-hash = "5bbd3ee910759e35ee64797d1c63d1f5e9442536151365b3955261d053347d6a"
+hash = "ad93f5f21ac8dced1ad9dca3b7a063057bb2f087f462ff4b66906fdc6d22b657"
+
+[[files]]
+file = "kubejs/assets/isolation/textures/map/fearless/b_upper.png"
+hash = "99f2fe8f2e0d3b7af5161002689e818cc7a209074d07919909b41b9f11ca7362"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/c.png"

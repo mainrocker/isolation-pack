@@ -11,11 +11,11 @@ hash = "9500b9181a49a7cec99dc8c3dcd728861d2dc0dc9a485f6c5b7718210e3b5a83"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/b.png"
-hash = "81dccf6c55d1a844a879df004cb57a6d28e47db64ed90c78a8a614099a7d98a1"
+hash = "9e764a463a29e6f92e1322c881902667c6718765a1ed92f9290951c9b1858e43"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/c.png"
-hash = "c8274cca9676986dd52efd57aa31e32a698a23866200ebd5113cf8d71feda926"
+hash = "c47f2ecff0c283f621138d3840264d714178c6d67ef9388c4015f672977c24b2"
 
 [[files]]
 file = "kubejs/data/isolation/fearless_mechanisms.json"

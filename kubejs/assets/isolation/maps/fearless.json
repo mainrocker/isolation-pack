@@ -17,12 +17,6 @@
    "deck": "b_deck",
    "name": "B Deck",
    "data": "isolation:textures/map/fearless/b.png"
-  },
-  {
-   "id": "b_lower",
-   "deck": "b_deck",
-   "name": "B Deck, lower",
-   "data": "isolation:textures/map/fearless/b_lower.png"
   }
  ],
  "rooms": [

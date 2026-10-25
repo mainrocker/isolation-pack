@@ -7,19 +7,15 @@ preserve = true
 
 [[files]]
 file = "kubejs/assets/isolation/maps/fearless.json"
-hash = "448992d531b1f65e7cc87e8e9808804b5f8abbbd110a4dbcfcfa8da0851e16c5"
+hash = "9500b9181a49a7cec99dc8c3dcd728861d2dc0dc9a485f6c5b7718210e3b5a83"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/b.png"
-hash = "9e764a463a29e6f92e1322c881902667c6718765a1ed92f9290951c9b1858e43"
-
-[[files]]
-file = "kubejs/assets/isolation/textures/map/fearless/b_lower.png"
-hash = "a9eaf1b82c72fb2118a02377808fe7ed5890586dd90710605acf9282f7d98dbd"
+hash = "042969ab51498b8b31ecc36225c87e7acbfa643fee743173e8902c945b3c20af"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/c.png"
-hash = "c47f2ecff0c283f621138d3840264d714178c6d67ef9388c4015f672977c24b2"
+hash = "c009701823bba039eaf033bb3aee6490e0ddee86ae8cc0db8d4f16a199089e91"
 
 [[files]]
 file = "kubejs/data/isolation/fearless_mechanisms.json"
@@ -152,8 +148,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.12.7.jar"
-hash = "ba56b43aff3854afee5c28aec0ae6fd49384adbb64d2c2239e5864f079a050c2"
+file = "mods/isolation-0.12.8.jar"
+hash = "9cd30f379ce8841fdca1b0fa7b03717872bb556a6ee3cb3bf892945ec213e9e7"
 
 [[files]]
 file = "mods/kubejs.pw.toml"

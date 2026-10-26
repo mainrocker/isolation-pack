@@ -7,7 +7,7 @@ preserve = true
 
 [[files]]
 file = "kubejs/assets/isolation/maps/fearless.json"
-hash = "6d4a80fb6ad0a74a1917f70c9adb84700146ee0d4e0b61c250910aa90dd3c8bc"
+hash = "facf61c185720b535a48058fa95fc6038d6fae39ceebecf21bc5da9b2ad57841"
 
 [[files]]
 file = "kubejs/assets/isolation/textures/map/fearless/b_lower.png"
@@ -152,8 +152,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.15.1.jar"
-hash = "11dc080a1f76fc8c5bd41cb2cc674c91304e276b35b7d99a017799a1e2c9a335"
+file = "mods/isolation-0.15.2.jar"
+hash = "713e0f3bd1cc9c610fd54b23f28ef569c6626207fabbc451694760e006ed8efc"
 
 [[files]]
 file = "mods/kubejs.pw.toml"

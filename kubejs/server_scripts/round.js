@@ -159,6 +159,7 @@ function endRound(server, winner, reason) {
     title(server, '@a', 'ROUND STOPPED', reason, 'gray')
   }
   soundAll(server, 'minecraft:block.beacon.deactivate', 1)
+  cmd(server, 'isolationfx loot clear')
   later(CFG.endScreen, () => resetToLobby(server))
 }
 

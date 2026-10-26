@@ -2,6 +2,7 @@
 // Map markers live in the world save (server persistent data), so a map carries its own setup.
 //
 //   /isolation mark <type> [sector] [pos]          lobby, human_spawn, alien_spawn, station, loot, pod, joe_spawn, map_station
+//                                                  (no sector: the sector of the nearest mark there already is)
 //   /isolation mark objective <id> [sector] [pos]  mission points, ids listed in missions.js
 //   /isolation mark list | remove | show
 //   /isolation bulkhead <sector> <from> <to>       blocked off when that sector is closed
@@ -57,6 +58,20 @@ function setBulkheads(server, data, openSectors) {
   })
 }
 
+// a mark made without a sector goes in the one its neighbours are in (a spawn on B deck is in b_deck)
+function nearestSector(data, p) {
+  let best = null
+  let bestDist = Infinity
+  data.points.forEach(m => {
+    const d = dist(m.pos[0], m.pos[1], m.pos[2], p[0], p[1], p[2])
+    if (d < bestDist) {
+      bestDist = d
+      best = m.sector
+    }
+  })
+  return best || 'core'
+}
+
 function markLabel(m) {
   return `${m.type}${m.id ? ':' + m.id : ''} [${m.sector}] ${m.pos[0]} ${m.pos[1]} ${m.pos[2]}`
 }
@@ -76,7 +91,7 @@ ServerEvents.commandRegistry(event => {
       p = [Math.floor(player.x), Math.floor(player.y), Math.floor(player.z)]
     }
     const data = loadMarks(server)
-    const mark = { type: type, sector: sector || 'core', pos: p }
+    const mark = { type: type, sector: sector || nearestSector(data, p), pos: p }
     if (id) mark.id = id
     data.points.push(mark)
     saveMarks(server, data)

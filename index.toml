@@ -59,7 +59,7 @@ hash = "f0886b7703821a627dc9389715532ee748c8996144813e4fbfce27b2261f6270"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
-hash = "57416c6fc26a6f8c09d7e1451556db7c3530e069239665fb8252021f0004c8ea"
+hash = "923ac1b33481b66c6cf69e1a6a5ddf846c43fd3f8194bc6b40382aad220eae55"
 
 [[files]]
 file = "kubejs/server_scripts/maps.js"
@@ -67,7 +67,7 @@ hash = "95177e7e8535c613bb2020cbb8f332bb4fc60f1d9c834ff57eb3457d4e559f54"
 
 [[files]]
 file = "kubejs/server_scripts/marks.js"
-hash = "e24a2e806ff7bbf7e2f826c65f7e5560119705cafe3f7f232d1d1d8be8b55bbe"
+hash = "fa38ef0624d599629b513961841baf652402a6a5d3541ba619ae4ebec83097c8"
 
 [[files]]
 file = "kubejs/server_scripts/missions.js"
@@ -83,7 +83,7 @@ hash = "8c2dd4fbe81e6b9b7ec21c830d2258ce81e5114ab96a96155335ae13c7ec49c7"
 
 [[files]]
 file = "kubejs/server_scripts/round.js"
-hash = "8d1adb90add28bd6e8b0d90872e1ad3dbc82260c596b2c8393dd9de6aa9b9d29"
+hash = "360fccfbd6f5895cb78d6c5fafe45cf0a88c685f94e20435a602915b39fa4f99"
 
 [[files]]
 file = "kubejs/server_scripts/stations.js"
@@ -152,8 +152,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.13.0.jar"
-hash = "42164cf591b8a9f135275286abba5c47a1aaf9203529779d5f46f050d0e96982"
+file = "mods/isolation-0.14.0.jar"
+hash = "8be96cc838c635833c2f442315aeb88e49d6a1f540fd57c052c9aa079d78c647"
 
 [[files]]
 file = "mods/kubejs.pw.toml"

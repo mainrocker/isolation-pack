@@ -143,8 +143,8 @@ hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
 metafile = true
 
 [[files]]
-file = "mods/halogen-1.2.1.jar"
-hash = "cf014aec09954ef90ce1ec84433773011b8dc28b1fd9135c3fbb0d6628c4d27c"
+file = "mods/halogen-1.2.2.jar"
+hash = "0307a9301825f13e97e24d7a1c2a858a5cc0534590fff6b1be9e0f5db805e85f"
 
 [[files]]
 file = "mods/iris.pw.toml"

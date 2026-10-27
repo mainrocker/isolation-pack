@@ -143,8 +143,8 @@ hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
 metafile = true
 
 [[files]]
-file = "mods/halogen-1.1.1.jar"
-hash = "70a20ebce0efdc14a6308d0d710e7b2ae8611303b76a2f645c46b9970ebd6c9a"
+file = "mods/halogen-1.2.0.jar"
+hash = "08cecb4d6bf60956928599f726e7dde9361a24c58f1bd6d14d2f44dafd56ce8a"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -152,8 +152,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.15.4.jar"
-hash = "ef280e2a524d628d2b54a2273576a15aa30e66d44c8a51bc8b150b90344081e8"
+file = "mods/isolation-0.16.0.jar"
+hash = "0cd902c286ddf22e80dd6a43bc1af977c49add16ab53576f361e828b51f887a2"
 
 [[files]]
 file = "mods/kubejs.pw.toml"

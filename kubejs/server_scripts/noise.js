@@ -1,8 +1,9 @@
 // priority: 70
-// Noises reach the alien two ways: a burst of dots in its LiDAR view, seen through every wall,
-// and a bearing on the action bar. How far a noise carries depends on how loud it is: the loudest
-// (CFG.noiseHeardEverywhere and up) reach the whole station, the rest CFG.noiseHearing times their
-// radius. The nearer the alien, the clearer the burst.
+// Noises reach the alien two ways. Every one shows in its LiDAR view wherever it is, seen through
+// every wall, as waves as many and as wide as the noise was loud. The ones it actually hears also
+// give a bearing on the action bar: how far a noise carries depends on how loud it is, the loudest
+// (CFG.noiseHeardEverywhere and up) reaching the whole station, the rest CFG.noiseHearing times
+// their radius.
 
 const MOTION = {}      // name -> { x, z, movedAt }
 const ALIEN_HUD = {}   // alien name -> { text, until, weight }
@@ -21,10 +22,9 @@ function makeNoise(server, x, y, z, radius, sourceName) {
     const d = dist(alien.x, alien.y, alien.z, x, y, z)
     const loud = radius >= CFG.noiseHeardEverywhere
     const reach = radius * CFG.noiseHearing
+    // seen whatever the distance, as loud as it was
+    cmd(server, `isolationfx ping ${alien.username} ${x} ${y} ${z} noise ${radius.toFixed(1)}`)
     if (!loud && d > reach) return
-    // 1 right next to it, fading towards the edge of hearing; loud noises never fade below a third
-    const clarity = loud ? Math.max(0.35, 1 - d / 150) : Math.max(0.15, 1 - d / reach)
-    cmd(server, `isolationfx ping ${alien.username} ${x} ${y} ${z} noise ${(clarity * 64).toFixed(1)}`)
     const hud = ALIEN_HUD[alien.username]
     // louder relative to distance wins the action bar slot
     const weight = radius / Math.max(d, 1)

@@ -75,7 +75,7 @@ hash = "72169829f5b419cd003751347059227d2329ca7c71ba047f57218f08d392b848"
 
 [[files]]
 file = "kubejs/server_scripts/noise.js"
-hash = "db8aafcfad0c5f702db5947ad318b6d665468c61e0566914f8910fd087557667"
+hash = "2df694826cbd47f4323e07438ed46db22ef9fed619a176a9a1a32cc8d309dc09"
 
 [[files]]
 file = "kubejs/server_scripts/roles.js"
@@ -143,8 +143,8 @@ hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
 metafile = true
 
 [[files]]
-file = "mods/halogen-1.2.2.jar"
-hash = "0307a9301825f13e97e24d7a1c2a858a5cc0534590fff6b1be9e0f5db805e85f"
+file = "mods/halogen-1.3.0.jar"
+hash = "254a2b1c22940bc1c70987a50f56d1db397eb40a358c84cc1432ddba44c5fa4d"
 
 [[files]]
 file = "mods/iris.pw.toml"
@@ -152,8 +152,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.16.3.jar"
-hash = "6e7d82a6c12ab6c86ee46f1ad1166f422ba6d319204f386f587c8ec3189dddf4"
+file = "mods/isolation-0.17.0.jar"
+hash = "38707183a51c22965b8eed5482c74ea111ccbaf546ab1c07fa889a0f4d0410ca"
 
 [[files]]
 file = "mods/kubejs.pw.toml"

@@ -152,8 +152,8 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/isolation-0.17.1.jar"
-hash = "3eb3bd2c53d6b006c099d06e0894f4f0c86ef2960ad6596bad39fcf7c6e9103e"
+file = "mods/isolation-0.17.2.jar"
+hash = "2696fa9026382db629e0a0e1a7ae18c0d5c3743d9fe3b23a8bb58d76751f20b0"
 
 [[files]]
 file = "mods/kubejs.pw.toml"
